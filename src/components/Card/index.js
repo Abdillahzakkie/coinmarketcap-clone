@@ -2,7 +2,6 @@ import React from 'react';
 import { ErrorBoundary } from "../ErrorBoundary";
 
 export function Card({ cardItems }) {
-    console.log(cardItems)
     const cardList = cardItems.map((item) => {
         const changes24h = item.market_cap_change_percentage_24h;
         return (
