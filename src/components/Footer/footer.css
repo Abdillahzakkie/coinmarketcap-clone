@@ -14,8 +14,7 @@
 .footer .center h3 { text-transform: capitalize; }
 
 .footer .form-control { margin: 1rem 0 0; }
-.footer .form-control input,
-.footer .form-control button {
+.footer .form-control input {
     height: 50px;
     padding: 1rem;
     letter-spacing: var(--letterSpacing);
@@ -24,10 +23,6 @@
 .footer .form-control input { width: 75%; }
 .footer .form-control input::placeholder { text-transform: capitalize; }
 
-.footer .form-control button {
-    background: var(--mainGreen);
-    /* margin: px 0 0 0px; */
-}
 .footer .icon { margin: 0 1rem 0 0; font-size: 1.1rem; color: var(--mainWhite); }
 
 @media (max-width: 1000px) {
@@ -41,9 +36,5 @@
     @media (max-width: 482px) {
         .footer .form-control { display: block; }
         .footer .form-control input { width: 100%; }
-        .footer .form-control button { 
-            margin: .25rem 0 0;
-            width: 40%;
-        }
     }
 }
